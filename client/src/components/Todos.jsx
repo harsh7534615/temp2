@@ -20,7 +20,7 @@ export const Todos = () => {
 
     useEffect(() => {
         dispatch(getAllTodos());
-    }, [])
+    })
 
     const getTodos = () => {
         if (currentTab === ALL_TODOS) {
